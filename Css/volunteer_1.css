@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 7, 2023, 2:04:40 AM
+    Author     : yunqi
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    text-align: center;
+    align-items: center;
+    background: #8aa4c8;
+}
+
+.design{
+    background-color:#c1d9f7;
+    border-radius:300px;
+    padding:50px;
+    box-shadow:4px 4px 15px #ffffff;
+}
+
+.title{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    color:#97b5c6;
+    text-shadow:5px 5px 1px #123e68;
+}
+
+.volunteer-form{
+    max-width: 900px;
+    width: 100%;
+    background: #dfeafa;
+    padding: 50px;
+    border-radius: 200px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow:4px 4px 15px #ffffff;
+    text-align: left;
+}
+
+.form{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+label{
+    color:#455882;
+    font-size:25px;
+    text-shadow:1px 1px 2px white;
+}
+
+button{
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:460px;
+    margin-top: 20px;
+    color:#698bb8;
+    border-color:#516d92;
+    border:solid 5px;
+    border-radius: 50px;
+    background-color: #ffffef;
+    font-size: 18px;
+    cursor: pointer;
+    transition:0.5s;
+}
+
+button:hover{
+    background-color: #698bb8;
+    color:#ffffef;
+    border-color:#516d92;
+}
+
+input[type=text]{
+    color:#455882;
+    text-shadow:0.5px 0.5px 1px #455882;
+    border:3px #7987ac solid;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    width: 40%;
+    border-radius: 4px;
+}

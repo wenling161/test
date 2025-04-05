@@ -1,0 +1,166 @@
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 1 Apr 2023, 10:52:39 am
+    Author     : User
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    text-align: center;
+    align-items: center;
+    background: #d7cef9;
+}
+form .joining-form{
+    max-width: 900px;
+    width: 100%;
+    background: #d197aa;
+    padding: 50px;
+    border-radius: 200px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow:4px 4px 15px #ffffff;
+    text-align: left;
+}
+form .form1{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.title{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    color:#39004b;
+    text-shadow:5px 5px 1px #fafafc;
+}
+.design{
+    background-color:#ffffef;
+    border-radius:300px;
+    padding:50px;
+    box-shadow:4px 4px 15px #ffffff;
+}
+label{
+    color:#f7dce9;
+    font-size:25px;
+    text-shadow:1px 1px 2px #9693a3;
+}
+
+form .button input{
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:460px;
+    margin-top: 20px;
+    color:#fbc267;
+    border-color:#ffdda7;
+    border:solid 5px;
+    border-radius: 50px;
+    background-color: #ffffef;
+    font-size: 18px;
+    cursor: pointer;
+    transition:0.5s;
+}
+form .button input:hover{
+    background-color: #f9c269;
+    color:#ffffff;
+    border-color:#ffdda7;
+}
+
+/* form .button{
+    height: 45px;
+    margin: 45px 0;
+
+}
+form .button input{
+    height: 100%;
+    width: 50%;
+    outline: none;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #d471e6;
+}
+form .button input:hover{
+    background-color: linear-gradient(135deg, #71b7e6, #9b59b6);
+} */
+form input[type=text],select{
+    color:#d2cceb;
+    text-shadow:0.5px 0.5px 1px #d2cceb;
+    border:3px #d2cceb solid;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    width: 40%;
+    border-radius: 4px;
+}
+form input[type=password],select{
+    color:#9693a3;
+    text-shadow:0.5px 0.5px 1px #9693a3;
+    border:3px #9693a3 solid;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    width: 40%;
+    border-radius: 4px;
+}
+.error, .info{
+    padding:10px;
+    margin: 5px;
+    list-style-position: inside;
+    width: 50%;
+}
+
+.error{
+    border: 2px solid black;
+    background-color: pink;
+    color:brown;
+    justify-items: center;
+    margin:auto;
+}
+.question{
+    background-color: lightblue;
+    justify-items: center;
+    
+}
+
+.correct{
+    background-color: lightgreen;
+    justify-items: center;
+}
+
+.wrong{
+    background-color: pink;
+    justify-items: center;
+}
+.info{
+    border:2px solid black;
+    background-color: lightblue;
+    color: navy;
+    font-size: larger;
+    justify-items: center;
+}
+::-webkit-scrollbar {
+    background-color: hsl(0, 0%, 100%);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 99999em;
+    background-color: #d2cceb;
+}
+
+::-webkit-scrollbar-corner {
+    display: none;
+}
+.gender{
+    font-size: 20px;
+    color:purple;
+}

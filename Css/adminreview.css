@@ -1,0 +1,40 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 Apr 2023, 2:49:30 pm
+    Author     : Wong Hui Ling
+*/
+*{
+    font-family: cursive;
+}
+body{
+    background-color: #fcedf4;
+}
+.table{
+    margin-left:500px;
+    margin-top:50px;
+    margin-right: 145px;
+    margin-bottom: 30px;
+}
+table,tr,th,td{
+    border: 4px solid #4c341a;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table th{
+    background-color: #716040;
+    color:white;
+}
+
+h1{
+    text-align: center;
+    color:#4c341a;
+}
+button{
+    cursor: pointer;
+}
+
+
+

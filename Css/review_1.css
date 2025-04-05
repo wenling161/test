@@ -1,0 +1,131 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 8 Apr 2023, 4:28:34 pm
+    Author     : Wong Hui Ling
+*/
+
+html{
+    background-color:#fce6af !important;
+}
+
+body{
+    font-family: cursive !important;
+}
+
+h1{
+    color:black !important;
+    font-size: 45px !important;
+}
+
+h2{
+    color:black !important;
+    font-size: 25px !important;
+}
+
+label{
+    color: #badbf4 !important;
+    text-shadow: 4px 4px 2px #98a4b2 !important;
+    font-family: cursive !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+
+select#event{
+    font-size: 18px !important;
+    padding: 2px 50px 2px 3px !important;
+    font-family: cursive !important;
+    background-color: #e9e6f2 !important;
+
+}
+.dropdown ul {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.dropdown ul li {
+    display: inline-block !important;
+    position: relative !important;
+}
+
+.dropdown ul li a {
+    display: block !important;
+    padding: 10px !important;
+    text-decoration: none !important;
+    color: #333 !important;
+}
+
+.dropdown ul ul {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    z-index: 1 !important;
+}
+
+.dropdown ul ul li {
+    display: block !important;
+}
+
+.dropdown ul ul li a {
+    padding: 5px 10px !important;
+}
+
+.dropdown ul ul ul {
+    position: absolute !important;
+    top: 0 !important;
+    left: 100% !important;
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    z-index: 1 !important;
+}
+
+.dropdown ul li:hover > ul {
+    display: block !important;
+}
+
+button{
+    background-color: #e9e6f2;
+    margin: 5px;
+    padding:10px;
+    color: black;
+    border: 2px solid #c7b9c7;
+    font-family: cursive;
+    font-size: 15px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #e9e6f2;
+}
+
+button:hover{
+    background-color: #d2cceb;
+    margin: 5px;
+    color: black;
+    border: 3px solid #2e2833;
+    font-size: 17px;
+    box-shadow: 1px 1px 2px #5F4b6F;
+}
+.HLdesign1{
+    text-align: center;
+    margin:100px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    background-color: #f9c9b2;
+    margin-bottom: 50px;
+    padding:50px;
+}
+.viewfeedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

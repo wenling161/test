@@ -1,0 +1,109 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 Apr 2023, 10:41:23 pm
+    Author     : Wong Hui Ling
+*/
+
+html{
+    background-color:#d8e6cd;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+body{
+    font-family: cursive;
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+}
+
+h1{
+    color:#dee9f3;
+    text-shadow:4px 4px 3px darkgreen;
+    font-size: 35px;
+}
+
+p{
+    text-shadow:2px 2px 4px grey;
+}
+form{
+    background-color:#f5f6ea ;
+    height: 630px;
+    width: 500px;;
+    margin-top: 30px;
+    padding-left: 15px;
+    border-radius: 50px;
+    box-shadow: 15px 15px 10px #fdebbf;
+    margin-left: 500px;
+}
+input#code{
+    padding-top: 2px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    margin: 3px;
+    box-shadow: 5px 5px 2px silver;
+    
+}
+input#password,input#cfpassword{
+    padding-top: 2px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+    padding-right: 40px;
+    margin: 3px;
+    box-shadow: 5px 5px 2px silver;
+}
+
+input#resetpass{
+    background-color: #dff5e1;
+    margin: 5px;
+    color: black;
+    border: 2px solid #a7c8a5;
+    font-family: cursive;
+    font-size: 15px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #d8e6cd;
+}
+
+input#resetpass:hover{
+    background-color: #f5f6ea;
+    margin: 5px;
+    color: black;
+    border: 3px solid #a7c8a5;
+    font-size: 17px;
+}
+
+input#backlogin{
+    background-color: #fce6af;
+    margin: 5px;
+    color: black;
+    border: 2px solid #FFBC39;
+    font-family: cursive;
+    font-size: 15px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #fdebbf;
+}
+
+input#backlogin:hover{
+    background-color: #fff5dd;
+    margin: 5px;
+    color: black;
+    border: 3px solid #FFBC39;
+    font-size: 17px;
+}
+svg.bi.bi-eye{
+    position: relative;
+    right: 32px;
+    top: 5px;
+    color:gray;
+    cursor: pointer;
+}
+
+::placeholder{
+    font-family: cursive;
+}

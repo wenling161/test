@@ -1,0 +1,152 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 Apr 2023, 2:57:48 am
+    Author     : Wong Hui Ling
+*/
+
+html{
+    background-color:#dee9f3;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+body{
+    font-family: cursive;
+    text-align: center;
+    display:flex;
+    flex-direction: column;  
+}
+
+form{
+    background-color: #b3d5e8;
+    height: 600px;
+    width: 500px;
+    margin-top: 30px;
+    border-radius: 50px;
+    box-shadow: 20px 20px 10px #d2cceb;
+    margin-left: 500px;
+    
+}
+
+h1{
+    color:#E9FEFF;
+    text-shadow:5px 5px 2px #61BCFF;
+    font-size: 35px;
+}
+
+img{
+    display:flex;
+    position: relative;
+    border-radius: 50%;
+    max-width: 100%;
+    height: 140px;
+    margin: auto;
+}
+
+input#btnLogin{
+    background-color: #dee9f3;
+    padding: 5px 150px 5px 150px;
+    margin: 3px;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;  
+}
+
+input#btnLogin:hover{
+    background:#E9FEFF;
+    padding: 7px 170px 7px 170px; 
+}
+
+input#btnReset{
+    background-color: #dee9f3;
+    padding: 3px 30px 3px 30px;
+    margin: 7px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input#btnReset:hover{
+    background-color: #E9FEFF;
+    padding: 5px 50px 5px 50px;
+}
+.left{
+    display: flex;
+}
+
+.right{
+    color:darkblue;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    font-size: medium;
+    color: black;
+}
+
+input#username{
+    height: 30px;
+    width:60%;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 2px #61BCFF;
+    opacity: 0.6;
+    color: darkblue;
+    padding-left: 35px;
+}
+
+input#username:focus{
+    border: none;
+    outline: none;
+}
+
+input#password{
+    height: 30px;
+    width:60%;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 2px #61BCFF;
+    opacity: 0.6;
+    color: darkblue;
+    padding-left: 35px;
+}
+
+input#password:focus{
+    border: none;
+    outline: none;
+}
+::placeholder{
+    color: darkblue;
+    font-family: cursive;
+  
+}
+
+svg.bi.bi-lock,svg.bi.bi-person{
+    position: relative;
+    left:30px;
+    top: 2px;
+}
+
+svg.bi.bi-eye{
+    position: relative;
+    right:32px;
+    top: 5px;
+    color:gray;
+    cursor: pointer;
+}
+

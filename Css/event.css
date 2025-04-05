@@ -1,0 +1,98 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 Mar 2023, 8:15:23 pm
+    Author     : User
+*/
+
+*{
+    font-family: cursive;
+}
+body{
+    background-color: #ffcce6;
+    font-size:19px;
+    animation:transition 2.5s;
+}
+@keyframes transition{
+    from{
+        opacity:0;
+        tranform:tranlateY(-10px);
+    }
+    to{
+        opacity:1;
+        transform:tranlateY(0);
+    }
+}
+
+.title{
+    color: white;
+    text-align: center;
+    background-color: #42adb9;
+    margin-bottom: 100px;
+    padding:30px;
+    margin-right: 20px;
+    margin-left:20px;
+    box-shadow:4px 4px 15px #ffffff;
+    border-radius:20px;
+    margin-top:80px;
+}
+
+.buttonClass{
+    border:3px solid white;
+    padding:1px;
+    text-decoration: none;
+    transition:0.5s;
+    color:white;
+    background-color: #3aaacc;
+    border-radius:7px;
+}
+.buttonClass:hover{
+    border: 3px solid black;
+}
+td img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white;
+    margin-left: 20px;
+    margin-bottom: 32px;
+    margin-right: 20px;
+}
+tbody td{
+    color:#ba0377;
+}
+.fontbg{
+    background-color: #d0499e;
+    color:white;
+    padding-left:20px;
+    border-radius: 20px;
+}
+.map{
+    background-color: #ffffe5;
+    padding-bottom: 15px;
+    padding-right: 0;
+    padding-top: 20px;
+    margin-right:50px;
+    margin-left:50px;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+iframe{
+    margin-left: 410px;
+    border-radius: 50px;
+}
+table{
+    margin-right: 100px;
+}
+::-webkit-scrollbar {
+    background-color: #d0499e;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 99999em;
+    background-color: #42adb9;
+}
+
+::-webkit-scrollbar-corner {
+    display: none;
+}

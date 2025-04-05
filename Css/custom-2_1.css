@@ -1,0 +1,78 @@
+footer {
+	background: black;
+	padding: 86px 0;
+}
+.single-content {
+	text-align: center;
+	padding: 1000px;
+}
+.single-box p {
+	color: #fff;
+	line-height: 1.9;
+}
+.single-box h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+.single-box .card-area i {
+	color: #ffffff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.single-box ul {
+	list-style: none;
+	padding: 0;
+}
+.single-box ul li a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 2.5;
+	font-weight: 100;
+}
+.single-box h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+#basic-addon2 {
+	background: #85c0d7;
+	color: #fff;
+}
+.socials i {
+	font-size: 18px;
+	margin-right: 15px;
+}
+@media (max-width: 767px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+
+::-webkit-scrollbar {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 99999em;
+    background-color: black;
+}
+
+::-webkit-scrollbar-corner {
+    display: none;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+.map{
+   margin-left: 420px;
+}
+.eventLocation{
+    margin-left: 550px;
+}
